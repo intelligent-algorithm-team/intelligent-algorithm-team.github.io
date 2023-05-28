@@ -2026,7 +2026,7 @@ h5 {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-image: url(../image/section-bg.jpg);
+	background-image: url(../image/slider-0.jpg);
 	z-index: 1;
 	text-align: center;
 	position: relative;
@@ -2812,7 +2812,7 @@ h5 {
 .contact-area {
 	position: relative;
 	z-index: 1;
-	background-image: url(../image/section-bg.jpg);
+	background-image: url(../image/slider-0.jpg);
 	background-attachment: fixed;
 	background-position: top;
 	background-size: cover;
@@ -2967,7 +2967,7 @@ textarea:focus {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-image: url(../image/section-bg.jpg);
+	background-image: url(../image/slider-0.jpg);
 	z-index: 1;
 	}
 .footer-section::before {
