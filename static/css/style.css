@@ -780,7 +780,9 @@ h5 {
 	width: 100%;
 	height: auto;
 	z-index: 999;
-	background: transparent;
+    /* 透明背景 */
+	/* background: transparent;  */
+    background-color: #ffffff;
 }
 
 .zr-theme-menu-header-navber-area .nav-top-bar {
@@ -887,7 +889,7 @@ h5 {
 
 .navbar-b.navbar-trans .nav-link,
 .navbar-b.navbar-reduce .nav-link {
-	color: #ffffff;
+	color: #1B1B1B;
 	text-transform: capitalize;
 	font-weight: 400;
 	font-size: 15px;
@@ -1226,8 +1228,8 @@ h5 {
 }
 .slider .parallax-slider .caption h1:before {
 	content: '';
-	width: 102px;
-	height: 98px;
+	width: 320px;
+	height: 110px;
 	display: block;
 	position: absolute;
 	background: #c00113;
