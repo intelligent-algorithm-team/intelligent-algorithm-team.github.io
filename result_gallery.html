@@ -44,10 +44,10 @@
                 <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
                     <ul class="navbar-nav">
                         <li class="nav-item"><a class="nav-link js-scroll active" href="#slider-home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll" href="#team_info.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll" href="#services">Research</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll" href="#result_gallery">Gallery</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll" href="#testimonials.html">Testimonials</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link js-scroll" href="#gallery">Gallery</a></li> -->
+                        <li class="nav-item"><a class="nav-link js-scroll" href="#review">Testimonials</a></li>
                         <!-- <li class="nav-item"><a class="nav-link js-scroll" href="#blog">Blogs</a></li> -->
                         <li class="nav-item"><a class="nav-link js-scroll" href="#contact">Contact</a></li>
                     </ul>
@@ -121,100 +121,152 @@
     </header>
     <!-- End Slider Area -->
 	
-    <!-- Repair Services Section Start -->
-    <section id="services" class="theme-repair-services section-padding">
+    
+
+
+    
+    <!-- Gallery Section Start -->
+    <section id="gallery" class="gallery-area section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12">
                     <div class="section-title">
-                        <h5>We offer best deep learn algorithm services</h5>
-                        <h2>Our Research Works</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row d-flex align-items-center">
-                <!-- single service -->
-                <div class="col-lg-4 col-md-6 col-sm-12 wow zr-theme-single-service fadeInLeft text-center" data-wow-delay="0.2s">
-                    <div class="zr-theme-single-service-card">
-                        <img src="static/picture/icon-dmr.png" alt="image">
-                        <h5>Deep Mechanism Reduction</h5>
-                        <p>Develop DNN-based algorithms for reducing chemical reaction mechanisms.</p>
-                    </div>
-                </div>
-                <!-- single service -->
-
-                <!-- single service -->
-                <div class="col-lg-4 col-md-6 col-sm-12 wow zr-theme-single-service fadeInLeft text-center" data-wow-delay="0.2s">
-                    <div class="zr-theme-single-service-card">
-                        <img src="static/picture/icon-dck.png" alt="image">
-                        <h5>Deep Chemical Kinetics</h5>
-                        <p>Develop DNN-based surrogate model to accelerate the simulation of chemical kinetics.</p>
-                    </div>
-                </div>
-                <!-- single service -->
-
-                <!-- single service -->
-                <div class="col-lg-4 col-md-6 col-sm-12 wow zr-theme-single-service fadeInLeft text-center" data-wow-delay="0.2s">
-                    <div class="zr-theme-single-service-card">
-                        <img src="static/picture/icon-dmo.png" alt="image">
-                        <h5>Deep Mechanism Optimization</h5>
-                        <p>Develop DNN-based algorithms to optimize mechanism parameters. (coming soon)</p>
-                    </div>
-                </div>
-                <!-- single service -->
-            </div>
-        </div>
-    </section>
-    <!-- Repair Services Section End -->
-
-
-
-
-
-
-    <!-- Contact Section Start -->
-    <section id="contact" class="contact-area section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
-                    <div class="section-title">
-                        <h5>Get in touch with us</h5>
-                        <h2>Contact us</h2>
+                        <h5>Representative Results</h5>
+                        <h2>Result Gallery</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="form-container-box">
-                        <div class="row">
-                            <div class="col-lg-8 col-md-12 mb-30">
-                                <div class="single-cta d-flex">
-                                    <i class="fa fa-map-marker"></i>
-                                    <div class="cta-text">
-                                        <h4>Find us</h4>
-                                        <span>Room 302, Building 5, New Science Complex Building, Shanghai Jiaotong University, No. 800 Dongchuan Road, Minhang District, Shanghai.</span>
-                                    </div>
+                <div class="col-md-12">
+                    <div class="gallery-list">
+                        <ul class="nav" id="gallery-flters">
+                            <li class="filter filter-active" data-filter=".all">All</li>
+                            <li class="filter" data-filter=".dmr">DeePMR</li>
+                            <li class="filter" data-filter=".dmo">DeePMO</li>
+                            <li class="filter" data-filter=".dck">DeePCK</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="gallery-container">
+                    <!-- gallery-item -->
+                    <div class="col-lg-4 col-md-6 gallery-grid-item all dmr">
+                        <div class="gallery-item">
+                            <img src="static/picture/gallery-mechanism_history.png" alt="image">
+                            <div class="gallery-img-overlay">
+                                <div class="gallery-content">
+                                    <a href="static/picture/gallery-mechanism_history.png" class="popimg"> 
+										<span class="icon">View Large <i class="fa fa-arrows-alt" aria-hidden="true"></i></span>
+									</a>
                                 </div>
                             </div>
-                        
-                            <div class="col-lg-4 col-md-12 mb-30">
-                                <div class="single-cta">
-                                    <i class="fa fa-envelope-open"></i>
-                                    <div class="cta-text">
-                                        <h4>Mail us</h4>
-                                        <span>xuzhiqin@sjtu.edu.cn</span>
-                                    </div>
+                        </div>
+                    </div>
+                    <!-- gallery-item -->
+                    <div class="col-lg-4 col-md-6 gallery-grid-item all dmr">
+                        <div class="gallery-item">
+                            <img src="static/picture/gallery-flow_chart.png" alt="image">
+                            <div class="gallery-img-overlay">
+                                <div class="gallery-content">
+                                    <a href="static/picture/gallery-flow_chart.png" class="popimg"> 
+										<span class="icon">View Large <i class="fa fa-arrows-alt" aria-hidden="true"></i></span>
+									</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- gallery-item -->
+                    <div class="col-lg-4 col-md-6 gallery-grid-item all dmr">
+                        <div class="gallery-item">
+                            <img src="static/picture/gallery-857-46validation2.png" alt="image">
+                            <div class="gallery-img-overlay">
+                                <div class="gallery-content">
+                                    <a href="static/picture/gallery-857-46validation2.png" class="popimg"> 
+										<span class="icon">View Large <i class="fa fa-arrows-alt" aria-hidden="true"></i></span>
+									</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- gallery-item -->
+                    <div class="col-lg-4 col-md-6 gallery-grid-item all dmr">
+                        <div class="gallery-item">
+                            <img src="static/picture/gallery-process.png" alt="image">
+                            <div class="gallery-img-overlay">
+                                <div class="gallery-content">
+                                    <a href="static/picture/gallery-process.png" class="popimg"> 
+										<span class="icon">View Large <i class="fa fa-arrows-alt" aria-hidden="true"></i></span>
+									</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- gallery-item -->
+                    <div class="col-lg-4 col-md-6 gallery-grid-item all dmr">
+                        <div class="gallery-item">
+                            <img src="static/picture/gallery-PSF.png" alt="image">
+                            <div class="gallery-img-overlay">
+                                <div class="gallery-content">
+                                    <a href="static/picture/gallery-PSF.png" class="popimg"> 
+										<span class="icon">View Large <i class="fa fa-arrows-alt" aria-hidden="true"></i></span>
+									</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- gallery-item -->
+                    <div class="col-lg-4 col-md-6 gallery-grid-item all dck">
+                        <div class="gallery-item">
+                            <img src="static/picture/gallery-deepck_1.png" alt="image">
+                            <div class="gallery-img-overlay">
+                                <div class="gallery-content">
+                                    <a href="static/picture/gallery-deepck_1.png" class="popimg"> 
+										<span class="icon">View Large <i class="fa fa-arrows-alt" aria-hidden="true"></i></span>
+									</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- gallery-item -->
+                    <div class="col-lg-4 col-md-6 gallery-grid-item all dck">
+                        <div class="gallery-item">
+                            <img src="static/picture/gallery-deepck_2.jpg" alt="image">
+                            <div class="gallery-img-overlay">
+                                <div class="gallery-content">
+                                    <a href="static/picture/gallery-deepck_2.jpg" class="popimg"> 
+										<span class="icon">View Large <i class="fa fa-arrows-alt" aria-hidden="true"></i></span>
+									</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- gallery-item -->
+                    <div class="col-lg-4 col-md-6 gallery-grid-item all dck">
+                        <div class="gallery-item">
+                            <img src="static/picture/gallery-deepck_3.jpg" alt="image">
+                            <div class="gallery-img-overlay">
+                                <div class="gallery-content">
+                                    <a href="static/picture/gallery-deepck_3.jpg" class="popimg"> 
+										<span class="icon">View Large <i class="fa fa-arrows-alt" aria-hidden="true"></i></span>
+									</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- gallery more button -->
+                <!-- <div class="col-md-12">
+                    <div class="gallery-more-btn text-center mt-15">
+                        <a class="button" href="#">View Gallery</a>
+                    </div>
+                </div> -->
             </div>
         </div>
     </section>
-    <!-- Contact Section End -->
+    <!-- Gallery Section End -->
+    
 
 
+   
     <!-- Footer Section Start -->
     <footer class="footer-section">
         <div class="container">
